@@ -684,3 +684,105 @@ form small a{
 }
 /*Media Screen  end*/
 
+/*start about*/
+/* Tata letak grid container */
+.about-page {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.container-about {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+/* Tata letak grid item */
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill);
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-about h2{
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 40px; 
+    color: #090909; 
+    background-color: var(--color-light);
+    padding: 2px 10px;
+}
+
+/* Gaya informasi tentang halaman */
+.about-description{
+    text-align: center;
+    margin-top: 10px;
+    text-align: justify;
+    background-color: var(--color-light);
+    padding: 10px;
+}
+.about-team {
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    gap: 20px;
+    background-color: var(--color-light);
+    padding: 10px;
+}
+.about-page h2 {
+    text-align: center;
+  }
+
+.about-page h3 {
+    text-align: center;
+  }
+
+/* Gaya informasi anggota tim */
+.team-member {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid var(--color-gray-1);
+    border-radius: 8px;
+    margin: 10px;
+
+}
+.team-member h1 {
+    font-size: 18px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 10px;
+    /* Untuk menengahkan gambar di dalam elemen .team-member */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Responsif untuk tablet dan ponsel */
+@media screen and (max-width: 768px) {
+    .container-about {
+        width: 80%; /* Lebar kontainer lebih kecil */
+    }
+
+    .about-content {
+        grid-template-columns: 1fr; /* Menampilkan satu kolom pada layar kecil */
+    }
+
+    .about-team {
+        grid-template-columns: 1fr; /* Menampilkan satu kolom pada layar kecil */
+    }
+}
+
+/*end about*/
+
+
