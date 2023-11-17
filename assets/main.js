@@ -39,3 +39,8 @@ cancelBtn.classList.add("show");
 //     document.querySelector('.Close').style.display='none';
 
 // });
+
+//.......inlien..check......
+document.querySelector('.inline').addEventListener('click',()=>{
+    document.querySelector('.inline input').classList.toggle('red')
+})
