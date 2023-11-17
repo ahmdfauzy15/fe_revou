@@ -11,9 +11,61 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    
+
+
     <!--NAV BAR START-->
-    <nav>
+    <nav> 
+        <div class="menu-icon">
+           <i class="fa fa-bars"></i>
+        </div>
+        <div class="logo">
+           <h3>News Portal <span>25</span></h3>
+        </div>
+        <ul class="nav-items">
+           <li><a href="./news.html">News</a></li>
+           <li><a href="./about.html">About</a></li>
+            <ul class="dropdown">
+                <li>
+                    <a href="#" class="dropdown-toggle">Categories</a>
+                    <ul class="dropdown-content">
+                        <li><a href="./categories.html">Food</a></li>
+                        <li><a href="./categories.html">Sience</a></li>
+                        <li><a href="./categories.html">Photography</a></li>
+                        <li><a href="./categories.html">Music</a></li>
+                        <li><a href="./categories.html">Technology</a></li>
+                        <li><a href="./categories.html">Art</a></li>
+                        <li><a href="./categories.html">Sport</a></li>
+                        <li><a href="./categories.html">Health</a></li>
+                        <li><a href="./categories.html">Education</a></li>
+                    </ul>
+                </li>
+            </ul>
+           <li><a href="./contact.html">Contact</a></li>
+           <li><a href="./sing-up.html">Sign In</a></li>
+           <li class="nav-profile">
+              <div class="profile-img">
+                 <img src="./assets/image/(1).jpg" alt="">
+              </div>
+              <ul class="profile-dropdown">
+                 <li><a href="#">Dashboard</a></li>
+                 <li><a href="#">LogOut</a></li>
+              </ul>
+           </li>
+        </ul>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+         </div>
+         <form action="#">
+            <input type="search" placeholder="Search">
+         </form>
+        <div class="cancel-icon">
+           <i class="fa fa-times"></i>
+        </div>
+       
+     </nav>
+
+
+    <!-- <nav>
         <div class="container nav-container">
             <a href="./index.html" class="logo"><h3>News Portal <span>25</span></h3></a>
             <ul class="nav-link">
@@ -52,7 +104,7 @@
             <button class="phone-button Open"><i class="fa fa-bars"></i></button>
             <button class="phone-button Close"><i class="fa fa-close"></i></button>
         </div>
-    </nav>
+    </nav> -->
     <!--NAV BAR END-->
 
     <section class="empty-page">
